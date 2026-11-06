@@ -607,7 +607,7 @@ def convert_antex(input_path: str, output_path: str,
     import sys, os
     # Import from PCC-Explorer's data_io for reading
     hiwi_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    explorer_dir = os.path.join(hiwi_dir, 'ImpactOfDeltaPCC')
+    explorer_dir = os.path.join(hiwi_dir, 'PCC-Explorer')
     if explorer_dir not in sys.path:
         sys.path.insert(0, explorer_dir)
 

@@ -14,7 +14,7 @@ from tkinter import filedialog, messagebox
 # Resolve import paths
 _this_dir = os.path.dirname(os.path.abspath(__file__))
 _parent_dir = os.path.dirname(_this_dir)
-_explorer_dir = os.path.join(_parent_dir, 'ImpactOfDeltaPCC')
+_explorer_dir = os.path.join(_parent_dir, 'PCC-Explorer')
 if os.path.isdir(_explorer_dir):
     sys.path.insert(0, _explorer_dir)
 sys.path.insert(0, _this_dir)
